@@ -21,14 +21,15 @@ a library to compile useful functions for processing gridded data.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/gridded-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/gridded-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/gridded-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/gridded-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/gridded-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/gridded-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/gridded-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/gridded-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/gridded/badges/version.svg)](https://anaconda.org/conda-forge/gridded)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/gridded/badges/downloads.svg)](https://anaconda.org/conda-forge/gridded)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-gridded-green.svg)](https://anaconda.org/conda-forge/gridded) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/gridded.svg)](https://anaconda.org/conda-forge/gridded) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/gridded.svg)](https://anaconda.org/conda-forge/gridded) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/gridded.svg)](https://anaconda.org/conda-forge/gridded) |
 
 Installing gridded
 ==================
@@ -73,6 +74,7 @@ To manage the continuous integration and simplify feedstock maintenance
 Using the ``conda-forge.yml`` within this repository, it is possible to re-render all of
 this feedstock's supporting files (e.g. the CI configuration files) with ``conda smithy rerender``.
 
+For more information please check the [conda-forge documentation](https://conda-forge.org/docs/).
 
 Terminology
 ===========
