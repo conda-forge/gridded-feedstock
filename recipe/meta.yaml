@@ -1,5 +1,5 @@
 
-{% set version = "0.8.0" %}
+{% set version = "0.8.1" %}
 {% set python_min = "3.12" %} #overwrite conda-forge default
 
 package:
@@ -9,7 +9,7 @@ package:
 source:
   url: https://github.com/NOAA-ORR-ERD/gridded/releases/download/v{{ version }}/gridded-{{ version }}.tar.gz
 #  url: https://github.com/NOAA-ORR-ERD/gridded/archive/v{{ version }}.tar.gz
-  sha256: 3311785894924a6996ab3701ccea6b73a18bdd518a6cae44187df4b2d2f73b75
+  sha256: b47075cb0e6b7da9cca470527a22c95c473762a710cbab420a909fdcd29f7f8c
   
 build:
   noarch: python
